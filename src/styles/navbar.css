@@ -1,0 +1,124 @@
+/* Estilos para el Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #FFBF69;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50px;
+    justify-content: space-between;
+    left: 0;
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    top: -2px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.logo-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0px;
+    position: absolute;
+    left: 50%;
+}
+
+.navbar-menu li {
+    position: relative;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar-menu a:hover {
+    color: none;
+}
+
+.dropdown-icon {
+    font-size: 0.8rem;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    font-size: 1.2rem;
+    color: #555;
+    cursor: pointer;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.user-menu button {
+    padding: 9px 26px;
+    border-radius: 7px;
+    border: 2px solid #222c55;
+    background: #222c55;
+    color: white;
+}
+
+.user-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        justify-content: center;
+        position: fixed;
+        z-index: 999;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+    }
+
+}

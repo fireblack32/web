@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  height: 70vb;
+  padding-right: 70vb;
+  background-color: #FFBF69;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets//images/background.png');
+  background-size: 65% 100%;
+  background-position: 20vw -2vw;
+  background-repeat: no-repeat;
+}
+
+.ContainerTextHome h1 {
+  font-weight: bold;
+  font-size: 8vw;
+  margin: 0px;
+  font-family: 'Lilita One', sans-serif;
+}
+
+.ContainerTextHome h4 {
+  text-align: justify;
+  font-size: 1vw;
+  margin: 2vb;
+  padding: 0vw 0vw 1vw 0vw;
+}
+
+.ContainerBtn {
+  display: flex;
+  padding: 7vb 25vb 0vb 0vb;
+}
+
+.btn-home {
+  background-color: #CBF3F0;
+  padding: 1vw 3vw 1vw 3vw;
+  font-weight: bold;
+  font-size: large;
+  border: 0cap;
+}
+
