@@ -43,7 +43,12 @@
   background-color: #CBF3F0;
   padding: 1vw 3vw 1vw 3vw;
   font-weight: bold;
-  font-size: large;
   border: 0cap;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
 }
 
+.btn-home:hover {
+  background-color: #019b91;
+}
