@@ -25,9 +25,6 @@ const Footer = () => {
                     <span>Cursos</span>
                 </li>
                 <li>
-                    <span>Servicios</span>
-                </li>
-                <li>
                     <span>Contacto</span>
                 </li>
             </ul>

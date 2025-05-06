@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .App-header {
@@ -21,34 +22,74 @@
 }
 
 .ContainerTextHome h1 {
-  font-weight: bold;
-  font-size: 8vw;
-  margin: 0px;
+  font-size: 12rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
   font-family: 'Lilita One', sans-serif;
 }
 
 .ContainerTextHome h4 {
-  text-align: justify;
-  font-size: 1vw;
-  margin: 2vb;
-  padding: 0vw 18vw 1vw 18vw;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  text-align: left;
 }
 
 .ContainerBtn {
-  display: flex;
-  padding: 7vw 13vw 0vw 0vw;
+  margin-top: 1.5rem;
+  padding: 3% 30% 4% 0%;
 }
 
 .btn-home {
   background-color: #CBF3F0;
-  padding: 1vw 3vw 1vw 3vw;
+  padding: 0.8rem 2rem;
   font-weight: bold;
-  border: 0cap;
+  font-size: 1rem;
+  border: none;
   cursor: pointer;
-  font-size: 0.95rem;
   transition: background-color 0.3s ease;
+  border-radius: 6px;
 }
 
 .btn-home:hover {
   background-color: #019b91;
+  color: white;
+}
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .App-header {
+    background-position: center;
+    background-size: 80%;
+  }
+
+  .ContainerTextHome h1 {
+    font-size: 2.5rem;
+  }
+
+  .ContainerTextHome h4 {
+    font-size: 1rem;
+  }
+}
+
+/* Celulares (max-width: 480px) */
+@media (max-width: 480px) {
+  .App-header {
+    padding: 1rem;
+    background-size: 90%;
+  }
+
+  .ContainerTextHome h1 {
+    font-size: 5rem;
+  }
+
+  .ContainerTextHome h4 {
+    font-size: 0.95rem;
+  }
+
+  .btn-home {
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem;
+  }
 }

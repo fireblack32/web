@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBullhorn } from "react-icons/fa";
-
 import "../styles/navbar.css";
 
 function Navbar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
     return (
         <nav className="navbar">
         <div className="navbar-left">
@@ -13,12 +18,16 @@ function Navbar() {
             </Link>
         </div>
 
-        <ul className="navbar-menu">
+        <button className="hamburger" onClick={toggleMenu}>
+            &#9776;
+        </button>
+
+        <ul className={`navbar-menu ${menuOpen ? "active" : ""}`}>
             <li className="dropdown">
             <Link to="/Prueba_Tecnica">
                 <FaBullhorn /> Inicio
             </Link>
-            </li> 
+            </li>
             <li className="dropdown">
             <Link to="/Prueba_Tecnica">
                 <FaBullhorn /> Enseñanza python
@@ -34,7 +43,6 @@ function Navbar() {
                 <FaBullhorn /> Enseñanza Roblox
             </Link>
             </li>
-
         </ul>
         </nav>
     );
