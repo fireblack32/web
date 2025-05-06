@@ -31,12 +31,12 @@
   text-align: justify;
   font-size: 1vw;
   margin: 2vb;
-  padding: 0vw 0vw 1vw 0vw;
+  padding: 0vw 18vw 1vw 18vw;
 }
 
 .ContainerBtn {
   display: flex;
-  padding: 7vb 25vb 0vb 0vb;
+  padding: 7vw 13vw 0vw 0vw;
 }
 
 .btn-home {

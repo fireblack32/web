@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.Container {
+    text-align: center;
+}
+
+.Container-header {
+    display: flex;
+    height: 70vb;
+    padding-right: 70vb;
+    background-color: #ffffff;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContainerTextInformación h1 {
+    padding-top: 8vb;
+    font-weight: bold;
+    font-size: 1.3vw;
+    margin: 0px;
+    font-family: 'Fredoka One', sans-serif;
+}
+
+.ContainerTextInformación p {
+    padding: 2% 20% 7% 20%;
+    margin: 0px;
+    font-family: 'Lilita One', sans-serif;
+}
+
