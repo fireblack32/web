@@ -55,14 +55,12 @@
     background-color: #b39200;
 }
 
-/* Responsive para tablets */
 @media (max-width: 900px) {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Responsive para celulares */
 @media (max-width: 600px) {
     .card-container {
         grid-template-columns: 1fr;

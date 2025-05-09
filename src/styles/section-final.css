@@ -42,7 +42,6 @@
     border-radius: 8px;
 }
 
-/* Responsive para tablets */
 @media (max-width: 900px) {
     .two-column-section {
         flex-direction: column;

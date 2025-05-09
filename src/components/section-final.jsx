@@ -9,7 +9,7 @@ export default function TwoColumnSection() {
         <div className="text-content">
             <h2 className="section-title">Ultima paleta de colores</h2>
             <p className="section-paragraph">
-                Explicacion general de la paleta de colores o producto que se este ofertando 
+                Explicación general de la paleta de colores o producto que se este ofertando 
                 o mostrando, donde se puede colocar todos los detalles - Explicacion general 
                 de la paleta de colores o producto que se este ofertando o mostrando, donde 
                 se puede colocar todos los detalles - Explicacion general de la paleta de 
@@ -18,7 +18,7 @@ export default function TwoColumnSection() {
             </p>
         </div>
         <div className="image-content">
-            <img src={sampleImage} alt="Descripción" className="section-image" />
+            <img src={sampleImage} alt="Description" className="section-image" />
         </div>
         </section>
     );

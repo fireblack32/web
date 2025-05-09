@@ -57,7 +57,6 @@
   color: white;
 }
 
-/* Tablets (max-width: 768px) */
 @media (max-width: 768px) {
   .App-header {
     background-position: center;
@@ -73,7 +72,6 @@
   }
 }
 
-/* Celulares (max-width: 480px) */
 @media (max-width: 480px) {
   .App-header {
     padding: 1rem;

@@ -35,7 +35,6 @@
     line-height: 1.6;
 }
 
-/* ✅ Tablets */
 @media (max-width: 768px) {
     .ContainerTextInformación h1 {
         font-size: 1.8rem;
@@ -47,7 +46,6 @@
     }
 }
 
-/* ✅ Móviles */
 @media (max-width: 480px) {
     .ContainerTextInformación h1 {
         font-size: 1.5rem;

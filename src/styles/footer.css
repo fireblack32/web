@@ -79,7 +79,7 @@ hr {
     color: #bdbdbd;
 }
 
-/* 🔽 Media query para pantallas menores a 1000px */
+
 @media (max-width: 1000px) {
     .containerFooter {
         flex-direction: row;
@@ -94,7 +94,7 @@ hr {
     }
 }
 
-/* 🔽 Media query para pantallas menores a 500px */
+
 @media (max-width: 500px) {
     .containerFooter {
         flex-direction: column;
